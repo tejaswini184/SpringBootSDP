@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d1dde1; /* Light blue background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.confirmation-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #95c2d6;
+}
+
+.tick-icon {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: black;
+}
+
+.ok-button {
+    background-color: #32CD32; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ok-button:hover {
+    background-color: #228B22; /* Darker green on hover */
+}
