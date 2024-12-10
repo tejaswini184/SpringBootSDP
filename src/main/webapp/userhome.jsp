@@ -100,7 +100,7 @@
         <!-- Cardboard with centered buttons -->
         <div class="cardboard">
            <!--<button class="dashboard-button">Events</button>--> 
-            <button class="dashboard-button" onclick="window.location.href='view-events.jsp'">Events</button>
+            <button class="dashboard-button" onclick="window.location.href='events.jsp'">Events</button>
             <!--<button class="dashboard-button">Sports</button>-->
             <button class="dashboard-button" onclick="window.location.href='sports.jsp'">Sports</button>
             <button class="dashboard-button" onclick="window.location.href='clubs.jsp'">Clubs</button>
